@@ -1,0 +1,11 @@
+{application,garage_detector,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             toolshed,ring_logger,shoehorn,jason,tortoise,
+                             circuits_gpio]},
+              {description,"garage_detector"},
+              {modules,['Elixir.GarageDetector',
+                        'Elixir.GarageDetector.Application',
+                        'Elixir.GarageDetector.MotionServer']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.GarageDetector.Application',[]}}]}.
